@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess That Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess That Number!</h1>
+      <p class="corner">Between 1 and 20</p>
+      <div class="number">?</div>
+      <button class="btn again">Let's Play Again!</button>
+    </header>
+    <main>
+      <section class="left-side">
+        <input type="number" class="guess" />
+        <button class="btn check">Check your guess!</button>
+      </section>
+      <section class="right-side">
+        <p class="message">Feed me a guess...</p>
+        <p class="label-score">💯Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🏅Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</hmtl>
